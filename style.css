@@ -1,0 +1,154 @@
+/* Gets rid of default padding and margin */
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none; /*removes the bullet points(from our navigation for example)*/
+	font-family:arial;
+	color:white;
+}/* "*" = select all elements in the page*/
+body{
+	background-color:#212529;
+	background-image:linear-gradient(to top, #343a40, #212529); 
+	background-repeat: no-repeat;
+}
+
+header,nav,article,section,footer,aside{
+	display:block; /*this makes all browsers(opera,internet explorer, etc..) display as a block*/
+} 
+
+/*centering website*/
+.container{
+	width:1300px;
+	margin:0px auto;
+	/*Top/Bottom = 0px , Right/Left = auto*/
+
+}
+
+
+.clear{
+	clear:both;
+} /*makes like a type of wall between the header and the section*/
+
+.logo{
+	width:150px;
+	height:150px; 
+	float:left;
+	padding:0px 0px;
+	margin:0px 250px 0px 0px;
+}
+
+.top_nav ul li{
+	float:left; /* / display:inline-block;*/
+	padding:10px;
+	display: inline-block;
+    text-align: center;
+    font-size: 36px;
+	margin:40px 20px 20px 50px; /*Top Left Bottom Right*/
+}
+
+a{
+	color:white;
+	text-decoration:none;
+}
+a:hover{
+	color:#00b4d8;
+	text-decoration:none;
+}/*= while your  mouse is hovering*/
+
+a:active{
+	color:#00b4d8;
+}/*= state of the link while you're clicking down*/
+
+a:visited{
+	text-decoration:none;
+}/*= in case if you have already visited the link*/
+#selected{
+	color:red;
+}
+.home {
+    margin-top: 190px;
+	font-family:arial;
+	padding:0px;
+	margin-bottom:0px;
+	padding:0px 0px;
+}
+section {
+    text-align: center;
+    padding: 8%;
+}
+
+section header {
+    margin-top: 0px;
+    font-family: 'Roboto Thin';
+    font-size: 62px;
+    margin-bottom: 20px;
+}
+section .mybutton {
+    font-family:arial;
+    font-size: 24px;
+    color: #151D21;
+    background: #00b4d8;
+    display: inline-flex;
+    padding: 6px;
+    margin-top: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    border-radius: 5px;
+}
+section .mybutton:hover {
+    background: white;
+    font-size: 26px;
+    margin-top: 29px;
+}
+
+footer {
+    font-family: 'Roboto Thin';
+    text-align: center;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+}
+
+
+.TheP{
+	font-size:31px;
+}
+.ARed{
+	color:red;
+	text-decoration:none;
+}
+.ABlue{
+	color:#00b4d8;
+	text-decoration:none;
+}
+/*About*/
+.otherAbout{
+	margin-top: 20px;
+	font-family:arial;
+	padding:0px;
+	
+}
+/*Love Quotes*/
+#space{
+	padding:94px;
+}
+.otherLove{
+	margin-top: 20px;
+	font-family:arial;
+	padding:0px;
+	margin:0px;
+}
+/*Contact*/
+.otherContact{
+	margin-bottom: 10px;
+	font-family:arial;
+	color:#00b4d8;
+}
+.ThePContact{
+	font-size:62px;
+}
+.ThePContact a:hover{
+	color:red;
+}
